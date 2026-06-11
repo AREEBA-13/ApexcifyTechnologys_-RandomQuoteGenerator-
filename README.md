@@ -22,34 +22,3 @@ A beautifully designed, minimalist Random Quote Generator app built with Flutter
 
 *   **API:** This project uses the [DummyJSON Quotes API](https://dummyjson.com/docs/quotes) to fetch random quotes efficiently and reliably.
 *   **State Management:** The application state is strictly managed using the `Provider` pattern (`ChangeNotifier`). The `QuoteProvider` seamlessly handles the data flow, loading states, and error handling, keeping the business logic completely decoupled from the UI.
-
-## Getting Started
-
-To run this project locally, ensure you have the Flutter SDK installed on your system.
-
-1.  Clone this repository:
-    ```bash
-    git clone https://github.com/AREEBA-13/ApexcifyTechnologys_-RandomQuoteGenerator-.git
-    ```
-2.  Navigate to the project directory:
-    ```bash
-    cd ApexcifyTechnologys_-RandomQuoteGenerator-
-    ```
-3.  Install the necessary dependencies:
-    ```bash
-    flutter pub get
-    ```
-4.  Run the application on your connected device or emulator:
-    ```bash
-    flutter run
-    ```
-
-## Building for Release
-
-To generate a production-ready APK for Android devices:
-
-```bash
-flutter build apk --release
-```
-
-The resulting APK will be located at `build/app/outputs/flutter-apk/app-release.apk`.
